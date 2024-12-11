@@ -69,19 +69,19 @@ include CMakeFiles/DataStructures.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructures.dir/flags.make
 
-CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o: /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList/LinkedList.cpp
-CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o -MF CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o.d -o CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o -c /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList/LinkedList.cpp
+CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o: /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList.cpp
+CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o -MF CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o.d -o CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o -c /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList.cpp
 
-CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList/LinkedList.cpp > CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.i
+CMakeFiles/DataStructures.dir/src/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/src/LinkedList.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList.cpp > CMakeFiles/DataStructures.dir/src/LinkedList.cpp.i
 
-CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList/LinkedList.cpp -o CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.s
+CMakeFiles/DataStructures.dir/src/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/src/LinkedList.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList.cpp -o CMakeFiles/DataStructures.dir/src/LinkedList.cpp.s
 
 CMakeFiles/DataStructures.dir/src/main.cpp.o: CMakeFiles/DataStructures.dir/flags.make
 CMakeFiles/DataStructures.dir/src/main.cpp.o: /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/main.cpp
@@ -99,13 +99,13 @@ CMakeFiles/DataStructures.dir/src/main.cpp.s: cmake_force
 
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
-"CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o" \
+"CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o" \
 "CMakeFiles/DataStructures.dir/src/main.cpp.o"
 
 # External object files for target DataStructures
 DataStructures_EXTERNAL_OBJECTS =
 
-DataStructures: CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/src/main.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/link.txt

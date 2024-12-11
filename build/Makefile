@@ -129,29 +129,29 @@ DataStructures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
-src/LinkedList/LinkedList.o: src/LinkedList/LinkedList.cpp.o
-.PHONY : src/LinkedList/LinkedList.o
+src/LinkedList.o: src/LinkedList.cpp.o
+.PHONY : src/LinkedList.o
 
 # target to build an object file
-src/LinkedList/LinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o
-.PHONY : src/LinkedList/LinkedList.cpp.o
+src/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o
+.PHONY : src/LinkedList.cpp.o
 
-src/LinkedList/LinkedList.i: src/LinkedList/LinkedList.cpp.i
-.PHONY : src/LinkedList/LinkedList.i
+src/LinkedList.i: src/LinkedList.cpp.i
+.PHONY : src/LinkedList.i
 
 # target to preprocess a source file
-src/LinkedList/LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.i
-.PHONY : src/LinkedList/LinkedList.cpp.i
+src/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/LinkedList.cpp.i
+.PHONY : src/LinkedList.cpp.i
 
-src/LinkedList/LinkedList.s: src/LinkedList/LinkedList.cpp.s
-.PHONY : src/LinkedList/LinkedList.s
+src/LinkedList.s: src/LinkedList.cpp.s
+.PHONY : src/LinkedList.s
 
 # target to generate assembly for a file
-src/LinkedList/LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.s
-.PHONY : src/LinkedList/LinkedList.cpp.s
+src/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/LinkedList.cpp.s
+.PHONY : src/LinkedList.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DataStructures"
-	@echo "... src/LinkedList/LinkedList.o"
-	@echo "... src/LinkedList/LinkedList.i"
-	@echo "... src/LinkedList/LinkedList.s"
+	@echo "... src/LinkedList.o"
+	@echo "... src/LinkedList.i"
+	@echo "... src/LinkedList.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

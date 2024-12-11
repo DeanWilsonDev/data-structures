@@ -1,6 +1,5 @@
-CMakeFiles/DataStructures.dir/main.cpp.o: \
-  /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/main.cpp \
-  /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/LinkedList/LinkedList.h \
+CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o: \
+  /Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assertion_handler \

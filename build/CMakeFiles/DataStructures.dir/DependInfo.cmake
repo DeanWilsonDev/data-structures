@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList/LinkedList.cpp" "CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/src/LinkedList/LinkedList.cpp.o.d"
+  "/Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/LinkedList.cpp" "CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/src/LinkedList.cpp.o.d"
   "/Users/deanwilson/development/cpp/courses/cpp-data-structures-and-algorithms-and-leetcode-exercises/src/main.cpp" "CMakeFiles/DataStructures.dir/src/main.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/src/main.cpp.o.d"
   )
 
