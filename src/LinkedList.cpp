@@ -52,6 +52,20 @@ class LinkedList {
     length++;
   }
 
+  void prepend(int value)
+  {
+    Node* newNode = new Node(value);
+    if (length == 0) {
+      head = newNode;
+      tail = newNode;
+    }
+    else {
+      newNode->next = head;
+      head = newNode;
+    }
+    length++;
+  }
+
   Node* findMiddleNode()
   {
     if (!head) return nullptr;
@@ -92,19 +106,6 @@ class LinkedList {
     return slow;
   }
 
-  void prepend(int value)
-  {
-    Node* newNode = new Node(value);
-    if (length == 0) {
-      head = newNode;
-      tail = newNode;
-    }
-    else {
-      newNode->next = head;
-      head = newNode;
-    }
-    length++;
-  }
 
   bool insert(int index, int value)
   {
